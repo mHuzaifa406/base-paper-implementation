@@ -1,0 +1,8 @@
+,Predicted_Benign,Predicted_Bot,Predicted_DoS,Predicted_Infiltration,Predicted_PortScan,Predicted_Web Attack,Predicted_Brute Force
+Actual_Benign,431809,0,12390,0,8117,0,1948
+Actual_Bot,296,0,0,0,95,0,0
+Actual_DoS,1617,0,74233,0,0,0,99
+Actual_Infiltration,6,0,1,0,0,0,0
+Actual_PortScan,223,0,33,0,31501,0,3
+Actual_Web Attack,423,0,7,0,0,0,6
+Actual_Brute Force,574,0,5,0,3,0,2184

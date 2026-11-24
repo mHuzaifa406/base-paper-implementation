@@ -1,0 +1,774 @@
+{
+    "experiment": "poisoned_defense",
+    "random_seed": 49,
+    "number_of_clients": 10,
+    "number_of_rounds": 20,
+    "warmup_rounds": 10,
+    "detection_starts_from_round": 11,
+    "malicious_client": 5,
+    "poisoning_ratio_of_non_benign_records": 0.2,
+    "poisoned_records": 8462,
+    "ratio_threshold": 3.5,
+    "threshold_is_an_experimental_refinement": true,
+    "defense_enabled": true,
+    "batch_size": 512,
+    "local_epochs": 1,
+    "learning_rate": 0.01,
+    "local_training_objective": "weighted_cross_entropy",
+    "lsm_loss_measurement": "unweighted_cross_entropy_against_client_training_labels",
+    "class_weight_method": "capped_inverse_square_root_frequency",
+    "class_weight_cap": 10.0,
+    "training_class_counts": [
+        1726202,
+        1487,
+        288609,
+        27,
+        120692,
+        1657,
+        10513
+    ],
+    "class_weights": [
+        0.14821872115135193,
+        1.482187271118164,
+        0.3624882698059082,
+        1.482187271118164,
+        0.5605438947677612,
+        1.482187271118164,
+        1.482187271118164
+    ],
+    "validation_records": 113116,
+    "checkpoint_file": "E:\\IoMT_FL_IDS\\results\\round11_defense_classweighted_v1\\poisoned_defense\\final_global_model.pt",
+    "asr_definition": "Fraction of clean validation records with true class != 0 that are predicted as class 0 (Benign).",
+    "round_results": [
+        {
+            "scenario": "poisoned_defense",
+            "round": 1,
+            "poisoned_scenario": true,
+            "defense_enabled": true,
+            "detection_active": false,
+            "kmeans_suspicious_clients": [
+                5
+            ],
+            "cluster_centers": [
+                0.0007246404508181338,
+                0.0052414153487386275
+            ],
+            "cluster_center_ratio": 7.233125535320259,
+            "ratio_threshold": 3.5,
+            "gate_triggered": false,
+            "excluded_clients": [],
+            "accepted_clients": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "global_validation_loss": 0.5012336885276975,
+            "global_validation_accuracy": 0.8783638035291206,
+            "global_validation_macro_f1": 0.23908456037053538,
+            "attack_success_rate": 0.5611355673344713,
+            "malicious_validation_records": 22262,
+            "validation_records": 113116
+        },
+        {
+            "scenario": "poisoned_defense",
+            "round": 2,
+            "poisoned_scenario": true,
+            "defense_enabled": true,
+            "detection_active": false,
+            "kmeans_suspicious_clients": [
+                5
+            ],
+            "cluster_centers": [
+                0.0004546423360820862,
+                0.002824912267418267
+            ],
+            "cluster_center_ratio": 6.21348265047676,
+            "ratio_threshold": 3.5,
+            "gate_triggered": false,
+            "excluded_clients": [],
+            "accepted_clients": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "global_validation_loss": 0.2905241700065891,
+            "global_validation_accuracy": 0.9300275823048906,
+            "global_validation_macro_f1": 0.3706140111329727,
+            "attack_success_rate": 0.13246788249034228,
+            "malicious_validation_records": 22262,
+            "validation_records": 113116
+        },
+        {
+            "scenario": "poisoned_defense",
+            "round": 3,
+            "poisoned_scenario": true,
+            "defense_enabled": true,
+            "detection_active": false,
+            "kmeans_suspicious_clients": [
+                5
+            ],
+            "cluster_centers": [
+                0.0017184283567280973,
+                0.012402608589326349
+            ],
+            "cluster_center_ratio": 7.217413830938535,
+            "ratio_threshold": 3.5,
+            "gate_triggered": false,
+            "excluded_clients": [],
+            "accepted_clients": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "global_validation_loss": 0.22280328082137907,
+            "global_validation_accuracy": 0.9283567311432511,
+            "global_validation_macro_f1": 0.37405937446830034,
+            "attack_success_rate": 0.0572724822567604,
+            "malicious_validation_records": 22262,
+            "validation_records": 113116
+        },
+        {
+            "scenario": "poisoned_defense",
+            "round": 4,
+            "poisoned_scenario": true,
+            "defense_enabled": true,
+            "detection_active": false,
+            "kmeans_suspicious_clients": [
+                5
+            ],
+            "cluster_centers": [
+                0.002415733216110692,
+                0.01786818428059287
+            ],
+            "cluster_center_ratio": 7.396588398681076,
+            "ratio_threshold": 3.5,
+            "gate_triggered": false,
+            "excluded_clients": [],
+            "accepted_clients": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "global_validation_loss": 0.19847639890467286,
+            "global_validation_accuracy": 0.9319548074542947,
+            "global_validation_macro_f1": 0.3774485332635797,
+            "attack_success_rate": 0.05844039169885904,
+            "malicious_validation_records": 22262,
+            "validation_records": 113116
+        },
+        {
+            "scenario": "poisoned_defense",
+            "round": 5,
+            "poisoned_scenario": true,
+            "defense_enabled": true,
+            "detection_active": false,
+            "kmeans_suspicious_clients": [
+                5
+            ],
+            "cluster_centers": [
+                0.0027074246086240777,
+                0.020886823547703666
+            ],
+            "cluster_center_ratio": 7.714646413854685,
+            "ratio_threshold": 3.5,
+            "gate_triggered": false,
+            "excluded_clients": [],
+            "accepted_clients": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "global_validation_loss": 0.18524744790642184,
+            "global_validation_accuracy": 0.939301248276106,
+            "global_validation_macro_f1": 0.3847952282061041,
+            "attack_success_rate": 0.0586649896684934,
+            "malicious_validation_records": 22262,
+            "validation_records": 113116
+        },
+        {
+            "scenario": "poisoned_defense",
+            "round": 6,
+            "poisoned_scenario": true,
+            "defense_enabled": true,
+            "detection_active": false,
+            "kmeans_suspicious_clients": [
+                5
+            ],
+            "cluster_centers": [
+                0.003106903977538824,
+                0.02355843294908269
+            ],
+            "cluster_center_ratio": 7.582607354265523,
+            "ratio_threshold": 3.5,
+            "gate_triggered": false,
+            "excluded_clients": [],
+            "accepted_clients": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "global_validation_loss": 0.17766514685767817,
+            "global_validation_accuracy": 0.9394250150288199,
+            "global_validation_macro_f1": 0.38493260685188996,
+            "attack_success_rate": 0.05772167819602911,
+            "malicious_validation_records": 22262,
+            "validation_records": 113116
+        },
+        {
+            "scenario": "poisoned_defense",
+            "round": 7,
+            "poisoned_scenario": true,
+            "defense_enabled": true,
+            "detection_active": false,
+            "kmeans_suspicious_clients": [
+                5
+            ],
+            "cluster_centers": [
+                0.0032625248903481747,
+                0.024828440556301887
+            ],
+            "cluster_center_ratio": 7.610191919072903,
+            "ratio_threshold": 3.5,
+            "gate_triggered": false,
+            "excluded_clients": [],
+            "accepted_clients": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "global_validation_loss": 0.1709758197111702,
+            "global_validation_accuracy": 0.9401676155451042,
+            "global_validation_macro_f1": 0.3854334553655471,
+            "attack_success_rate": 0.05722756266283353,
+            "malicious_validation_records": 22262,
+            "validation_records": 113116
+        },
+        {
+            "scenario": "poisoned_defense",
+            "round": 8,
+            "poisoned_scenario": true,
+            "defense_enabled": true,
+            "detection_active": false,
+            "kmeans_suspicious_clients": [
+                5
+            ],
+            "cluster_centers": [
+                0.0034312584171953112,
+                0.02682668106973824
+            ],
+            "cluster_center_ratio": 7.818321387657592,
+            "ratio_threshold": 3.5,
+            "gate_triggered": false,
+            "excluded_clients": [],
+            "accepted_clients": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "global_validation_loss": 0.16612958194823452,
+            "global_validation_accuracy": 0.9406715230382969,
+            "global_validation_macro_f1": 0.385724279687503,
+            "attack_success_rate": 0.057182643068906656,
+            "malicious_validation_records": 22262,
+            "validation_records": 113116
+        },
+        {
+            "scenario": "poisoned_defense",
+            "round": 9,
+            "poisoned_scenario": true,
+            "defense_enabled": true,
+            "detection_active": false,
+            "kmeans_suspicious_clients": [
+                5
+            ],
+            "cluster_centers": [
+                0.003680662177096356,
+                0.027264522241563824
+            ],
+            "cluster_center_ratio": 7.4075046634876385,
+            "ratio_threshold": 3.5,
+            "gate_triggered": false,
+            "excluded_clients": [],
+            "accepted_clients": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "global_validation_loss": 0.16196040971608203,
+            "global_validation_accuracy": 0.9429523674811697,
+            "global_validation_macro_f1": 0.3869964428555547,
+            "attack_success_rate": 0.05435270865151379,
+            "malicious_validation_records": 22262,
+            "validation_records": 113116
+        },
+        {
+            "scenario": "poisoned_defense",
+            "round": 10,
+            "poisoned_scenario": true,
+            "defense_enabled": true,
+            "detection_active": false,
+            "kmeans_suspicious_clients": [
+                5
+            ],
+            "cluster_centers": [
+                0.0035866121667557926,
+                0.0283289028290896
+            ],
+            "cluster_center_ratio": 7.89851300111827,
+            "ratio_threshold": 3.5,
+            "gate_triggered": false,
+            "excluded_clients": [],
+            "accepted_clients": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "global_validation_loss": 0.15769608514245445,
+            "global_validation_accuracy": 0.9439071395735351,
+            "global_validation_macro_f1": 0.3876197224145253,
+            "attack_success_rate": 0.05435270865151379,
+            "malicious_validation_records": 22262,
+            "validation_records": 113116
+        },
+        {
+            "scenario": "poisoned_defense",
+            "round": 11,
+            "poisoned_scenario": true,
+            "defense_enabled": true,
+            "detection_active": true,
+            "kmeans_suspicious_clients": [
+                5
+            ],
+            "cluster_centers": [
+                0.003907843321627684,
+                0.029230114514562346
+            ],
+            "cluster_center_ratio": 7.479858353785663,
+            "ratio_threshold": 3.5,
+            "gate_triggered": true,
+            "excluded_clients": [
+                5
+            ],
+            "accepted_clients": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "global_validation_loss": 0.15587439969218372,
+            "global_validation_accuracy": 0.9439513419852187,
+            "global_validation_macro_f1": 0.43413447956612494,
+            "attack_success_rate": 0.03984367981313449,
+            "malicious_validation_records": 22262,
+            "validation_records": 113116
+        },
+        {
+            "scenario": "poisoned_defense",
+            "round": 12,
+            "poisoned_scenario": true,
+            "defense_enabled": true,
+            "detection_active": true,
+            "kmeans_suspicious_clients": [
+                5
+            ],
+            "cluster_centers": [
+                0.003928224639016174,
+                0.030633972945165705
+            ],
+            "cluster_center_ratio": 7.7984269639014325,
+            "ratio_threshold": 3.5,
+            "gate_triggered": true,
+            "excluded_clients": [
+                5
+            ],
+            "accepted_clients": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "global_validation_loss": 0.1537726027038395,
+            "global_validation_accuracy": 0.9423777361292832,
+            "global_validation_macro_f1": 0.42866289807636887,
+            "attack_success_rate": 0.03894528793459707,
+            "malicious_validation_records": 22262,
+            "validation_records": 113116
+        },
+        {
+            "scenario": "poisoned_defense",
+            "round": 13,
+            "poisoned_scenario": true,
+            "defense_enabled": true,
+            "detection_active": true,
+            "kmeans_suspicious_clients": [
+                5
+            ],
+            "cluster_centers": [
+                0.004098209983347353,
+                0.03193436300671764
+            ],
+            "cluster_center_ratio": 7.792271049184785,
+            "ratio_threshold": 3.5,
+            "gate_triggered": true,
+            "excluded_clients": [
+                5
+            ],
+            "accepted_clients": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "global_validation_loss": 0.14863865317935473,
+            "global_validation_accuracy": 0.9491407051168712,
+            "global_validation_macro_f1": 0.43345280150125615,
+            "attack_success_rate": 0.04132602641272123,
+            "malicious_validation_records": 22262,
+            "validation_records": 113116
+        },
+        {
+            "scenario": "poisoned_defense",
+            "round": 14,
+            "poisoned_scenario": true,
+            "defense_enabled": true,
+            "detection_active": true,
+            "kmeans_suspicious_clients": [
+                5
+            ],
+            "cluster_centers": [
+                0.004239303909739929,
+                0.0327081711832559
+            ],
+            "cluster_center_ratio": 7.715457980756672,
+            "ratio_threshold": 3.5,
+            "gate_triggered": true,
+            "excluded_clients": [
+                5
+            ],
+            "accepted_clients": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "global_validation_loss": 0.14779403264571706,
+            "global_validation_accuracy": 0.9437656918561477,
+            "global_validation_macro_f1": 0.42923704788614997,
+            "attack_success_rate": 0.038406252807474624,
+            "malicious_validation_records": 22262,
+            "validation_records": 113116
+        },
+        {
+            "scenario": "poisoned_defense",
+            "round": 15,
+            "poisoned_scenario": true,
+            "defense_enabled": true,
+            "detection_active": true,
+            "kmeans_suspicious_clients": [
+                5
+            ],
+            "cluster_centers": [
+                0.0042490478059881666,
+                0.033699329441642625
+            ],
+            "cluster_center_ratio": 7.9310308992406,
+            "ratio_threshold": 3.5,
+            "gate_triggered": true,
+            "excluded_clients": [
+                5
+            ],
+            "accepted_clients": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "global_validation_loss": 0.14433946362976358,
+            "global_validation_accuracy": 0.9485925952119948,
+            "global_validation_macro_f1": 0.4314911939901044,
+            "attack_success_rate": 0.03934956427993891,
+            "malicious_validation_records": 22262,
+            "validation_records": 113116
+        },
+        {
+            "scenario": "poisoned_defense",
+            "round": 16,
+            "poisoned_scenario": true,
+            "defense_enabled": true,
+            "detection_active": true,
+            "kmeans_suspicious_clients": [
+                5
+            ],
+            "cluster_centers": [
+                0.004608180600337158,
+                0.03466521597436767
+            ],
+            "cluster_center_ratio": 7.522538498563051,
+            "ratio_threshold": 3.5,
+            "gate_triggered": true,
+            "excluded_clients": [
+                5
+            ],
+            "accepted_clients": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "global_validation_loss": 0.14108334844193923,
+            "global_validation_accuracy": 0.9514038685950705,
+            "global_validation_macro_f1": 0.4335144722205828,
+            "attack_success_rate": 0.03436348935405624,
+            "malicious_validation_records": 22262,
+            "validation_records": 113116
+        },
+        {
+            "scenario": "poisoned_defense",
+            "round": 17,
+            "poisoned_scenario": true,
+            "defense_enabled": true,
+            "detection_active": true,
+            "kmeans_suspicious_clients": [
+                5
+            ],
+            "cluster_centers": [
+                0.004814075008905472,
+                0.03558850929398511
+            ],
+            "cluster_center_ratio": 7.392595509656696,
+            "ratio_threshold": 3.5,
+            "gate_triggered": true,
+            "excluded_clients": [
+                5
+            ],
+            "accepted_clients": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "global_validation_loss": 0.13983840821651738,
+            "global_validation_accuracy": 0.9509883659252448,
+            "global_validation_macro_f1": 0.4663329544636538,
+            "attack_success_rate": 0.02883837930105112,
+            "malicious_validation_records": 22262,
+            "validation_records": 113116
+        },
+        {
+            "scenario": "poisoned_defense",
+            "round": 18,
+            "poisoned_scenario": true,
+            "defense_enabled": true,
+            "detection_active": true,
+            "kmeans_suspicious_clients": [
+                5
+            ],
+            "cluster_centers": [
+                0.004698595171050611,
+                0.036154347849800095
+            ],
+            "cluster_center_ratio": 7.6947143845371855,
+            "ratio_threshold": 3.5,
+            "gate_triggered": true,
+            "excluded_clients": [
+                5
+            ],
+            "accepted_clients": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "global_validation_loss": 0.1375282886127016,
+            "global_validation_accuracy": 0.9531542840977404,
+            "global_validation_macro_f1": 0.48272444502012796,
+            "attack_success_rate": 0.02883837930105112,
+            "malicious_validation_records": 22262,
+            "validation_records": 113116
+        },
+        {
+            "scenario": "poisoned_defense",
+            "round": 19,
+            "poisoned_scenario": true,
+            "defense_enabled": true,
+            "detection_active": true,
+            "kmeans_suspicious_clients": [
+                5
+            ],
+            "cluster_centers": [
+                0.004938271301708515,
+                0.03684626785674078
+            ],
+            "cluster_center_ratio": 7.461369699148144,
+            "ratio_threshold": 3.5,
+            "gate_triggered": true,
+            "excluded_clients": [
+                5
+            ],
+            "accepted_clients": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "global_validation_loss": 0.1370038683029418,
+            "global_validation_accuracy": 0.9525177693694968,
+            "global_validation_macro_f1": 0.4817134680565666,
+            "attack_success_rate": 0.028209504986074926,
+            "malicious_validation_records": 22262,
+            "validation_records": 113116
+        },
+        {
+            "scenario": "poisoned_defense",
+            "round": 20,
+            "poisoned_scenario": true,
+            "defense_enabled": true,
+            "detection_active": true,
+            "kmeans_suspicious_clients": [
+                5
+            ],
+            "cluster_centers": [
+                0.004987595483114721,
+                0.037697733243873974
+            ],
+            "cluster_center_ratio": 7.558298055946587,
+            "ratio_threshold": 3.5,
+            "gate_triggered": true,
+            "excluded_clients": [
+                5
+            ],
+            "accepted_clients": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "global_validation_loss": 0.13427172682107333,
+            "global_validation_accuracy": 0.9541886205311362,
+            "global_validation_macro_f1": 0.4820454235027983,
+            "attack_success_rate": 0.028344263767855538,
+            "malicious_validation_records": 22262,
+            "validation_records": 113116
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "experiment": "FedAvg pilot",
+    "communication_rounds": 1,
+    "participants": 10,
+    "samples_per_participant": 5000,
+    "local_epochs": 1,
+    "batch_size": 512,
+    "learning_rate": 0.01,
+    "test_sample_count": 20000,
+    "initial_accuracy_percent": 69.96,
+    "aggregated_accuracy_percent": 80.895,
+    "device": "cpu"
+}

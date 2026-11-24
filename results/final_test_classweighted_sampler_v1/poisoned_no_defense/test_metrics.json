@@ -1,0 +1,14 @@
+{
+    "scenario": "poisoned_no_defense",
+    "test_records": 565573,
+    "test_accuracy": 0.9204877177658763,
+    "macro_precision": 0.4974014901514342,
+    "macro_recall": 0.6719894622563565,
+    "macro_f1": 0.463153305332341,
+    "weighted_precision": 0.9513136965436912,
+    "weighted_recall": 0.9204877177658763,
+    "weighted_f1": 0.9302869203209618,
+    "attack_success_rate": 0.014419319192518125,
+    "malicious_test_records": 111309,
+    "malicious_records_predicted_benign": 1605
+}

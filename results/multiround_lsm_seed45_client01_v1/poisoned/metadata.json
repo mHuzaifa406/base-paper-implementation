@@ -1,0 +1,217 @@
+{
+    "scenario": "poisoned",
+    "rounds": 10,
+    "clients": 10,
+    "fedavg": true,
+    "defense_enabled": false,
+    "malicious_client": 1,
+    "poisoning_ratio_of_non_benign_records": 0.2,
+    "poisoned_records": 8457,
+    "batch_size": 512,
+    "local_epochs": 1,
+    "learning_rate": 0.01,
+    "random_seed": 45,
+    "validation_records": 113116,
+    "round_summaries": [
+        {
+            "scenario": "poisoned",
+            "round": 1,
+            "online_loss_suspicious_clients": [
+                1
+            ],
+            "validation_loss_suspicious_clients": [
+                1
+            ],
+            "online_cluster_centers": [
+                0.0006212357950171566,
+                0.00423153793481479
+            ],
+            "validation_cluster_centers": [
+                0.0009458222300922653,
+                0.007861223854856506
+            ],
+            "global_clean_validation_loss": 0.4313905874376625,
+            "global_clean_validation_accuracy": 0.8807418932776973
+        },
+        {
+            "scenario": "poisoned",
+            "round": 2,
+            "online_loss_suspicious_clients": [
+                1
+            ],
+            "validation_loss_suspicious_clients": [
+                1
+            ],
+            "online_cluster_centers": [
+                0.00029682046261251074,
+                0.0007956725302078176
+            ],
+            "validation_cluster_centers": [
+                0.001324858424051026,
+                0.010779302788628636
+            ],
+            "global_clean_validation_loss": 0.31080120134827455,
+            "global_clean_validation_accuracy": 0.8875844266063156
+        },
+        {
+            "scenario": "poisoned",
+            "round": 3,
+            "online_loss_suspicious_clients": [
+                1
+            ],
+            "validation_loss_suspicious_clients": [
+                1
+            ],
+            "online_cluster_centers": [
+                0.0009090405051929674,
+                0.006423996765035354
+            ],
+            "validation_cluster_centers": [
+                0.0015389044764566498,
+                0.013112846781861795
+            ],
+            "global_clean_validation_loss": 0.23312769934717872,
+            "global_clean_validation_accuracy": 0.8910233742352983
+        },
+        {
+            "scenario": "poisoned",
+            "round": 4,
+            "online_loss_suspicious_clients": [
+                1
+            ],
+            "validation_loss_suspicious_clients": [
+                1
+            ],
+            "online_cluster_centers": [
+                0.0017557267410690505,
+                0.013115424896162551
+            ],
+            "validation_cluster_centers": [
+                0.0015961837528551631,
+                0.013661904975367473
+            ],
+            "global_clean_validation_loss": 0.19012009211833317,
+            "global_clean_validation_accuracy": 0.9457459598995721
+        },
+        {
+            "scenario": "poisoned",
+            "round": 5,
+            "online_loss_suspicious_clients": [
+                1
+            ],
+            "validation_loss_suspicious_clients": [
+                1
+            ],
+            "online_cluster_centers": [
+                0.002284564616014097,
+                0.017620188624867746
+            ],
+            "validation_cluster_centers": [
+                0.0016199532141561671,
+                0.014132210676277686
+            ],
+            "global_clean_validation_loss": 0.17089003815821752,
+            "global_clean_validation_accuracy": 0.9505551822907458
+        },
+        {
+            "scenario": "poisoned",
+            "round": 6,
+            "online_loss_suspicious_clients": [
+                1
+            ],
+            "validation_loss_suspicious_clients": [
+                1
+            ],
+            "online_cluster_centers": [
+                0.0026857035261498574,
+                0.020283784056109675
+            ],
+            "validation_cluster_centers": [
+                0.0017256518116876174,
+                0.014469103763717886
+            ],
+            "global_clean_validation_loss": 0.16024986268303898,
+            "global_clean_validation_accuracy": 0.9518193712648962
+        },
+        {
+            "scenario": "poisoned",
+            "round": 7,
+            "online_loss_suspicious_clients": [
+                1
+            ],
+            "validation_loss_suspicious_clients": [
+                1
+            ],
+            "online_cluster_centers": [
+                0.002838173874933097,
+                0.022136612923432754
+            ],
+            "validation_cluster_centers": [
+                0.0017220541850850055,
+                0.014786409063733286
+            ],
+            "global_clean_validation_loss": 0.15322472367185005,
+            "global_clean_validation_accuracy": 0.9528271862512818
+        },
+        {
+            "scenario": "poisoned",
+            "round": 8,
+            "online_loss_suspicious_clients": [
+                1
+            ],
+            "validation_loss_suspicious_clients": [
+                1
+            ],
+            "online_cluster_centers": [
+                0.003049502519474195,
+                0.023316657860598028
+            ],
+            "validation_cluster_centers": [
+                0.001799681338352801,
+                0.015595598317038552
+            ],
+            "global_clean_validation_loss": 0.14813322288960765,
+            "global_clean_validation_accuracy": 0.9534194985678419
+        },
+        {
+            "scenario": "poisoned",
+            "round": 9,
+            "online_loss_suspicious_clients": [
+                1
+            ],
+            "validation_loss_suspicious_clients": [
+                1
+            ],
+            "online_cluster_centers": [
+                0.0030565935966582443,
+                0.024908053869891304
+            ],
+            "validation_cluster_centers": [
+                0.0018581279729204924,
+                0.015768738408279956
+            ],
+            "global_clean_validation_loss": 0.14399190564325715,
+            "global_clean_validation_accuracy": 0.9538792036493511
+        },
+        {
+            "scenario": "poisoned",
+            "round": 10,
+            "online_loss_suspicious_clients": [
+                1
+            ],
+            "validation_loss_suspicious_clients": [
+                1
+            ],
+            "online_cluster_centers": [
+                0.003298800097333536,
+                0.02538387316976102
+            ],
+            "validation_cluster_centers": [
+                0.0018153625242368866,
+                0.01551869311892073
+            ],
+            "global_clean_validation_loss": 0.14061166960319893,
+            "global_clean_validation_accuracy": 0.9544184730718908
+        }
+    ]
+}

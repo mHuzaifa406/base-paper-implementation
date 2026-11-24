@@ -1,0 +1,15 @@
+{
+    "experiment": "FedAvg label-flipping pilot",
+    "communication_rounds": 1,
+    "number_of_clients": 10,
+    "malicious_client": 10,
+    "poisoning_ratio": 0.2,
+    "target_label": "Benign",
+    "samples_per_client": 5000,
+    "poisoned_labels_in_training_sample": 157,
+    "test_sample_count": 20000,
+    "initial_accuracy_percent": 69.96,
+    "poisoned_accuracy_percent": 80.895,
+    "accuracy_change_percentage_points": 10.935000000000002,
+    "device": "cpu"
+}

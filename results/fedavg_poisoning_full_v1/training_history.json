@@ -1,0 +1,692 @@
+[
+    {
+        "round": 1,
+        "participants": 10,
+        "malicious_client": 10,
+        "eligible_malicious_records": 44521,
+        "poisoned_records": 8904,
+        "training_records": 2262303,
+        "client_losses": {
+            "1": 0.7802503669751926,
+            "2": 0.7819218457832998,
+            "3": 0.7804139736954557,
+            "4": 0.778016145247819,
+            "5": 0.7818872916257463,
+            "6": 0.780116898633702,
+            "7": 0.7792144281105327,
+            "8": 0.7800808333386491,
+            "9": 0.7806539175124979,
+            "10": 0.7437018398041867
+        },
+        "accuracy_percent": 88.47611183702192,
+        "macro_precision_percent": 26.698521092218748,
+        "macro_recall_percent": 23.004665593059606,
+        "macro_f1_percent": 24.139502644344766,
+        "test_records": 565573,
+        "per_class": {
+            "Benign": {
+                "precision_percent": 87.4937607560711,
+                "recall_percent": 99.94166387827342,
+                "f1_percent": 93.30436918195112,
+                "support": 454264
+            },
+            "Bot": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 391
+            },
+            "DoS": {
+                "precision_percent": 99.39588688946014,
+                "recall_percent": 61.090995273143825,
+                "f1_percent": 75.67214932846227,
+                "support": 75949
+            },
+            "Infiltration": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 7
+            },
+            "PortScan": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 31760
+            },
+            "Web Attack": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 436
+            },
+            "Brute Force": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 2766
+            }
+        }
+    },
+    {
+        "round": 2,
+        "participants": 10,
+        "malicious_client": 10,
+        "eligible_malicious_records": 44521,
+        "poisoned_records": 8904,
+        "training_records": 2262303,
+        "client_losses": {
+            "1": 0.3827571709624858,
+            "2": 0.3829279785561819,
+            "3": 0.38299413726402237,
+            "4": 0.38169109332208606,
+            "5": 0.38400466233409825,
+            "6": 0.38329758750466536,
+            "7": 0.38232379244668757,
+            "8": 0.3830510764549508,
+            "9": 0.38425227265602724,
+            "10": 0.37947030797155873
+        },
+        "accuracy_percent": 88.7222339114491,
+        "macro_precision_percent": 26.703967269972694,
+        "macro_recall_percent": 23.283726721347662,
+        "macro_f1_percent": 24.363309187117338,
+        "test_records": 565573,
+        "per_class": {
+            "Benign": {
+                "precision_percent": 87.74566094053874,
+                "recall_percent": 99.9174488843492,
+                "f1_percent": 93.43682517070799,
+                "support": 454264
+            },
+            "Bot": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 391
+            },
+            "DoS": {
+                "precision_percent": 99.18210994927011,
+                "recall_percent": 63.068638165084465,
+                "f1_percent": 77.10633913911337,
+                "support": 75949
+            },
+            "Infiltration": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 7
+            },
+            "PortScan": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 31760
+            },
+            "Web Attack": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 436
+            },
+            "Brute Force": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 2766
+            }
+        }
+    },
+    {
+        "round": 3,
+        "participants": 10,
+        "malicious_client": 10,
+        "eligible_malicious_records": 44521,
+        "poisoned_records": 8904,
+        "training_records": 2262303,
+        "client_losses": {
+            "1": 0.306828300904186,
+            "2": 0.3081004723704241,
+            "3": 0.30784704314522787,
+            "4": 0.30744709387395724,
+            "5": 0.30797209190080127,
+            "6": 0.30771079674716845,
+            "7": 0.307776494321757,
+            "8": 0.3075126035727725,
+            "9": 0.3097680621076377,
+            "10": 0.32615729200118393
+        },
+        "accuracy_percent": 89.22667807692376,
+        "macro_precision_percent": 26.72743928244337,
+        "macro_recall_percent": 23.853104482947558,
+        "macro_f1_percent": 24.80575585269075,
+        "test_records": 565573,
+        "per_class": {
+            "Benign": {
+                "precision_percent": 88.26338940909365,
+                "recall_percent": 99.87144039589315,
+                "f1_percent": 93.70930245767973,
+                "support": 454264
+            },
+            "Bot": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 391
+            },
+            "DoS": {
+                "precision_percent": 98.82868556800993,
+                "recall_percent": 67.10029098473976,
+                "f1_percent": 79.93098851115555,
+                "support": 75949
+            },
+            "Infiltration": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 7
+            },
+            "PortScan": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 31760
+            },
+            "Web Attack": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 436
+            },
+            "Brute Force": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 2766
+            }
+        }
+    },
+    {
+        "round": 4,
+        "participants": 10,
+        "malicious_client": 10,
+        "eligible_malicious_records": 44521,
+        "poisoned_records": 8904,
+        "training_records": 2262303,
+        "client_losses": {
+            "1": 0.25555821605101514,
+            "2": 0.2555917817512308,
+            "3": 0.2558602748146738,
+            "4": 0.2555720619665146,
+            "5": 0.25642431119023723,
+            "6": 0.25609345878500556,
+            "7": 0.25513265308328686,
+            "8": 0.2554730653524639,
+            "9": 0.25773700308224956,
+            "10": 0.28978235779230954
+        },
+        "accuracy_percent": 90.88252091241979,
+        "macro_precision_percent": 26.894825786119984,
+        "macro_recall_percent": 25.685429844357284,
+        "macro_f1_percent": 26.12035450058144,
+        "test_records": 565573,
+        "per_class": {
+            "Benign": {
+                "precision_percent": 89.97314074606392,
+                "recall_percent": 99.77193878449536,
+                "f1_percent": 94.61952544934714,
+                "support": 454264
+            },
+            "Bot": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 391
+            },
+            "DoS": {
+                "precision_percent": 98.29063975677599,
+                "recall_percent": 80.0260701260056,
+                "f1_percent": 88.22295605472294,
+                "support": 75949
+            },
+            "Infiltration": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 7
+            },
+            "PortScan": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 31760
+            },
+            "Web Attack": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 436
+            },
+            "Brute Force": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 2766
+            }
+        }
+    },
+    {
+        "round": 5,
+        "participants": 10,
+        "malicious_client": 10,
+        "eligible_malicious_records": 44521,
+        "poisoned_records": 8904,
+        "training_records": 2262303,
+        "client_losses": {
+            "1": 0.21635639731519987,
+            "2": 0.2172176398250833,
+            "3": 0.2165846590921586,
+            "4": 0.21708193033239276,
+            "5": 0.21794917773593356,
+            "6": 0.2173714841020227,
+            "7": 0.21677004993446672,
+            "8": 0.2163364413057238,
+            "9": 0.21899345785451602,
+            "10": 0.2623527248676308
+        },
+        "accuracy_percent": 95.10248898020238,
+        "macro_precision_percent": 38.96033455566492,
+        "macro_recall_percent": 39.10969791711131,
+        "macro_f1_percent": 38.88895944385499,
+        "test_records": 565573,
+        "per_class": {
+            "Benign": {
+                "precision_percent": 96.03423945175447,
+                "recall_percent": 97.9745258263917,
+                "f1_percent": 96.99468021348885,
+                "support": 454264
+            },
+            "Bot": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 391
+            },
+            "DoS": {
+                "precision_percent": 97.49052812418512,
+                "recall_percent": 83.68378780497439,
+                "f1_percent": 90.06107324538408,
+                "support": 75949
+            },
+            "Infiltration": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 7
+            },
+            "PortScan": {
+                "precision_percent": 79.19757431371487,
+                "recall_percent": 92.1095717884131,
+                "f1_percent": 85.16696264811203,
+                "support": 31760
+            },
+            "Web Attack": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 436
+            },
+            "Brute Force": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 2766
+            }
+        }
+    },
+    {
+        "round": 6,
+        "participants": 10,
+        "malicious_client": 10,
+        "eligible_malicious_records": 44521,
+        "poisoned_records": 8904,
+        "training_records": 2262303,
+        "client_losses": {
+            "1": 0.19400474614623608,
+            "2": 0.19384254511772342,
+            "3": 0.19390153304999602,
+            "4": 0.19405661536726193,
+            "5": 0.1949069944722026,
+            "6": 0.1939600507613282,
+            "7": 0.19329009274857017,
+            "8": 0.19392020704638455,
+            "9": 0.19581616231621493,
+            "10": 0.24606689749666447
+        },
+        "accuracy_percent": 95.18859634388488,
+        "macro_precision_percent": 38.693450704712134,
+        "macro_recall_percent": 39.51423053923046,
+        "macro_f1_percent": 38.91373402630117,
+        "test_records": 565573,
+        "per_class": {
+            "Benign": {
+                "precision_percent": 96.42969497497359,
+                "recall_percent": 97.84112322349999,
+                "f1_percent": 97.13028190175234,
+                "support": 454264
+            },
+            "Bot": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 391
+            },
+            "DoS": {
+                "precision_percent": 96.94654169261852,
+                "recall_percent": 84.02612279292683,
+                "f1_percent": 90.02511003272768,
+                "support": 75949
+            },
+            "Infiltration": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 7
+            },
+            "PortScan": {
+                "precision_percent": 77.47791826539283,
+                "recall_percent": 94.7323677581864,
+                "f1_percent": 85.24074624962815,
+                "support": 31760
+            },
+            "Web Attack": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 436
+            },
+            "Brute Force": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 2766
+            }
+        }
+    },
+    {
+        "round": 7,
+        "participants": 10,
+        "malicious_client": 10,
+        "eligible_malicious_records": 44521,
+        "poisoned_records": 8904,
+        "training_records": 2262303,
+        "client_losses": {
+            "1": 0.18139795597599864,
+            "2": 0.1822992837235584,
+            "3": 0.18057179514444494,
+            "4": 0.18125546779356846,
+            "5": 0.18192313287250675,
+            "6": 0.18137472101336094,
+            "7": 0.18117595620690877,
+            "8": 0.18196486577299145,
+            "9": 0.18341325622078367,
+            "10": 0.2382199797016005
+        },
+        "accuracy_percent": 95.30069504732369,
+        "macro_precision_percent": 38.69497490080937,
+        "macro_recall_percent": 39.856279587712976,
+        "macro_f1_percent": 39.06314828452395,
+        "test_records": 565573,
+        "per_class": {
+            "Benign": {
+                "precision_percent": 96.6299908836347,
+                "recall_percent": 97.76781783280207,
+                "f1_percent": 97.19557445914494,
+                "support": 454264
+            },
+            "Bot": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 391
+            },
+            "DoS": {
+                "precision_percent": 96.73439220477547,
+                "recall_percent": 84.44087479756152,
+                "f1_percent": 90.17054961123688,
+                "support": 75949
+            },
+            "Infiltration": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 7
+            },
+            "PortScan": {
+                "precision_percent": 77.50044121725537,
+                "recall_percent": 96.7852644836272,
+                "f1_percent": 86.07591392128585,
+                "support": 31760
+            },
+            "Web Attack": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 436
+            },
+            "Brute Force": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 2766
+            }
+        }
+    },
+    {
+        "round": 8,
+        "participants": 10,
+        "malicious_client": 10,
+        "eligible_malicious_records": 44521,
+        "poisoned_records": 8904,
+        "training_records": 2262303,
+        "client_losses": {
+            "1": 0.17324006307060175,
+            "2": 0.17401156115033076,
+            "3": 0.1730563800476032,
+            "4": 0.17340473582739138,
+            "5": 0.1741539511940551,
+            "6": 0.1723691163616124,
+            "7": 0.17222179342686697,
+            "8": 0.1735392714172445,
+            "9": 0.17453504143682622,
+            "10": 0.23138472308321642
+        },
+        "accuracy_percent": 95.37018209850895,
+        "macro_precision_percent": 38.69906025325278,
+        "macro_recall_percent": 40.048008398714316,
+        "macro_f1_percent": 39.14891234008033,
+        "test_records": 565573,
+        "per_class": {
+            "Benign": {
+                "precision_percent": 96.74811276347216,
+                "recall_percent": 97.72951411514009,
+                "f1_percent": 97.23633719402149,
+                "support": 454264
+            },
+            "Bot": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 391
+            },
+            "DoS": {
+                "precision_percent": 96.61887245702275,
+                "recall_percent": 84.7318595373211,
+                "f1_percent": 90.28578643882318,
+                "support": 75949
+            },
+            "Infiltration": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 7
+            },
+            "PortScan": {
+                "precision_percent": 77.52643655227453,
+                "recall_percent": 97.87468513853904,
+                "f1_percent": 86.52026274771765,
+                "support": 31760
+            },
+            "Web Attack": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 436
+            },
+            "Brute Force": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 2766
+            }
+        }
+    },
+    {
+        "round": 9,
+        "participants": 10,
+        "malicious_client": 10,
+        "eligible_malicious_records": 44521,
+        "poisoned_records": 8904,
+        "training_records": 2262303,
+        "client_losses": {
+            "1": 0.16756246962657662,
+            "2": 0.16762179028393612,
+            "3": 0.166215572051431,
+            "4": 0.16710973409270127,
+            "5": 0.1677581961730215,
+            "6": 0.16757924917777242,
+            "7": 0.16661937017614434,
+            "8": 0.16648210683576664,
+            "9": 0.16919217574607365,
+            "10": 0.2268786252569339
+        },
+        "accuracy_percent": 95.48298804928807,
+        "macro_precision_percent": 38.71945142105638,
+        "macro_recall_percent": 40.20709045587535,
+        "macro_f1_percent": 39.24071279287614,
+        "test_records": 565573,
+        "per_class": {
+            "Benign": {
+                "precision_percent": 96.89489125025102,
+                "recall_percent": 97.71652607294436,
+                "f1_percent": 97.30397422126747,
+                "support": 454264
+            },
+            "Bot": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 391
+            },
+            "DoS": {
+                "precision_percent": 96.59932760108298,
+                "recall_percent": 85.49947991415291,
+                "f1_percent": 90.71110769639104,
+                "support": 75949
+            },
+            "Infiltration": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 7
+            },
+            "PortScan": {
+                "precision_percent": 77.54194109606064,
+                "recall_percent": 98.23362720403023,
+                "f1_percent": 86.66990763247448,
+                "support": 31760
+            },
+            "Web Attack": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 436
+            },
+            "Brute Force": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 2766
+            }
+        }
+    },
+    {
+        "round": 10,
+        "participants": 10,
+        "malicious_client": 10,
+        "eligible_malicious_records": 44521,
+        "poisoned_records": 8904,
+        "training_records": 2262303,
+        "client_losses": {
+            "1": 0.16288904314396385,
+            "2": 0.16319212959407597,
+            "3": 0.16163674079297918,
+            "4": 0.16220990510512712,
+            "5": 0.1624341536850589,
+            "6": 0.16236808510951778,
+            "7": 0.1617821961702437,
+            "8": 0.1622253353701976,
+            "9": 0.16341879989826766,
+            "10": 0.22379675787038575
+        },
+        "accuracy_percent": 95.53620841164624,
+        "macro_precision_percent": 38.73178201884081,
+        "macro_recall_percent": 40.30221474118599,
+        "macro_f1_percent": 39.29209940460416,
+        "test_records": 565573,
+        "per_class": {
+            "Benign": {
+                "precision_percent": 96.96721436826434,
+                "recall_percent": 97.70728034799147,
+                "f1_percent": 97.33584065702115,
+                "support": 454264
+            },
+            "Bot": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 391
+            },
+            "DoS": {
+                "precision_percent": 96.5646535753983,
+                "recall_percent": 85.7904646539125,
+                "f1_percent": 90.8592704149933,
+                "support": 75949
+            },
+            "Infiltration": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 7
+            },
+            "PortScan": {
+                "precision_percent": 77.59060618822305,
+                "recall_percent": 98.61775818639799,
+                "f1_percent": 86.84958476021463,
+                "support": 31760
+            },
+            "Web Attack": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 436
+            },
+            "Brute Force": {
+                "precision_percent": 0.0,
+                "recall_percent": 0.0,
+                "f1_percent": 0.0,
+                "support": 2766
+            }
+        }
+    }
+]

@@ -1,0 +1,69 @@
+{
+    "round": 10,
+    "participants": 10,
+    "malicious_client": 10,
+    "eligible_malicious_records": 44521,
+    "poisoned_records": 8904,
+    "training_records": 2262303,
+    "client_losses": {
+        "1": 0.16288904314396385,
+        "2": 0.16319212959407597,
+        "3": 0.16163674079297918,
+        "4": 0.16220990510512712,
+        "5": 0.1624341536850589,
+        "6": 0.16236808510951778,
+        "7": 0.1617821961702437,
+        "8": 0.1622253353701976,
+        "9": 0.16341879989826766,
+        "10": 0.22379675787038575
+    },
+    "accuracy_percent": 95.53620841164624,
+    "macro_precision_percent": 38.73178201884081,
+    "macro_recall_percent": 40.30221474118599,
+    "macro_f1_percent": 39.29209940460416,
+    "test_records": 565573,
+    "per_class": {
+        "Benign": {
+            "precision_percent": 96.96721436826434,
+            "recall_percent": 97.70728034799147,
+            "f1_percent": 97.33584065702115,
+            "support": 454264
+        },
+        "Bot": {
+            "precision_percent": 0.0,
+            "recall_percent": 0.0,
+            "f1_percent": 0.0,
+            "support": 391
+        },
+        "DoS": {
+            "precision_percent": 96.5646535753983,
+            "recall_percent": 85.7904646539125,
+            "f1_percent": 90.8592704149933,
+            "support": 75949
+        },
+        "Infiltration": {
+            "precision_percent": 0.0,
+            "recall_percent": 0.0,
+            "f1_percent": 0.0,
+            "support": 7
+        },
+        "PortScan": {
+            "precision_percent": 77.59060618822305,
+            "recall_percent": 98.61775818639799,
+            "f1_percent": 86.84958476021463,
+            "support": 31760
+        },
+        "Web Attack": {
+            "precision_percent": 0.0,
+            "recall_percent": 0.0,
+            "f1_percent": 0.0,
+            "support": 436
+        },
+        "Brute Force": {
+            "precision_percent": 0.0,
+            "recall_percent": 0.0,
+            "f1_percent": 0.0,
+            "support": 2766
+        }
+    }
+}

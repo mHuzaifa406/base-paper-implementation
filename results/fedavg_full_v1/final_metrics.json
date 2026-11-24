@@ -1,0 +1,53 @@
+{
+    "round": 10,
+    "total_local_samples": 2262303,
+    "accuracy_percent": 95.56662004727949,
+    "macro_precision_percent": 38.71397634609389,
+    "macro_recall_percent": 40.374601681157976,
+    "macro_f1_percent": 39.32020828796376,
+    "test_records": 565573,
+    "per_class": {
+        "Benign": {
+            "precision_percent": 97.03594353136721,
+            "recall_percent": 97.67271894757233,
+            "f1_percent": 97.35328998397164,
+            "support": 454264
+        },
+        "Bot": {
+            "precision_percent": 0.0,
+            "recall_percent": 0.0,
+            "f1_percent": 0.0,
+            "support": 391
+        },
+        "DoS": {
+            "precision_percent": 96.4018918799452,
+            "recall_percent": 86.1459663721708,
+            "f1_percent": 90.98582931204717,
+            "support": 75949
+        },
+        "Infiltration": {
+            "precision_percent": 0.0,
+            "recall_percent": 0.0,
+            "f1_percent": 0.0,
+            "support": 7
+        },
+        "PortScan": {
+            "precision_percent": 77.55999901134481,
+            "recall_percent": 98.80352644836272,
+            "f1_percent": 86.9023387197275,
+            "support": 31760
+        },
+        "Web Attack": {
+            "precision_percent": 0.0,
+            "recall_percent": 0.0,
+            "f1_percent": 0.0,
+            "support": 436
+        },
+        "Brute Force": {
+            "precision_percent": 0.0,
+            "recall_percent": 0.0,
+            "f1_percent": 0.0,
+            "support": 2766
+        }
+    }
+}

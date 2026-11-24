@@ -1,0 +1,57 @@
+{
+    "Benign": {
+        "precision": 0.973035682203594,
+        "recall": 0.9776495606079284,
+        "f1-score": 0.9753371648940025,
+        "support": 454264.0
+    },
+    "Bot": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 391.0
+    },
+    "DoS": {
+        "precision": 0.970273380037577,
+        "recall": 0.877141239515991,
+        "f1-score": 0.9213598141181677,
+        "support": 75949.0
+    },
+    "Infiltration": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 7.0
+    },
+    "PortScan": {
+        "precision": 0.7762248123271435,
+        "recall": 0.989735516372796,
+        "f1-score": 0.8700730735163862,
+        "support": 31760.0
+    },
+    "Web Attack": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 436.0
+    },
+    "Brute Force": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 2766.0
+    },
+    "accuracy": 0.9586083494084761,
+    "macro avg": {
+        "precision": 0.38850483922404494,
+        "recall": 0.40636090235667366,
+        "f1-score": 0.3952528646469366,
+        "support": 565573.0
+    },
+    "weighted avg": {
+        "precision": 0.9554191485812042,
+        "recall": 0.9586083494084761,
+        "f1-score": 0.9559693252873639,
+        "support": 565573.0
+    }
+}

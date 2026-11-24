@@ -1,0 +1,240 @@
+{
+    "scenario": "benign",
+    "rounds": 10,
+    "clients": 10,
+    "fedavg": true,
+    "defense_enabled": false,
+    "malicious_client": null,
+    "poisoning_ratio_of_non_benign_records": 0.0,
+    "poisoned_records": 0,
+    "batch_size": 512,
+    "local_epochs": 1,
+    "learning_rate": 0.01,
+    "random_seed": 45,
+    "validation_records": 113116,
+    "round_summaries": [
+        {
+            "scenario": "benign",
+            "round": 1,
+            "online_loss_suspicious_clients": [
+                5,
+                9
+            ],
+            "validation_loss_suspicious_clients": [
+                1,
+                2,
+                4,
+                8,
+                9
+            ],
+            "online_cluster_centers": [
+                0.00023166158250532802,
+                0.00015353029478209004
+            ],
+            "validation_cluster_centers": [
+                6.808272033661626e-05,
+                0.00011071212093286507
+            ],
+            "global_clean_validation_loss": 0.4283840946051958,
+            "global_clean_validation_accuracy": 0.8830934615792637
+        },
+        {
+            "scenario": "benign",
+            "round": 2,
+            "online_loss_suspicious_clients": [
+                5,
+                9
+            ],
+            "validation_loss_suspicious_clients": [
+                4
+            ],
+            "online_cluster_centers": [
+                0.0001849013706893242,
+                0.0003558692653352607
+            ],
+            "validation_cluster_centers": [
+                0.00012393415764604197,
+                0.00025928269533094517
+            ],
+            "global_clean_validation_loss": 0.3063359986463098,
+            "global_clean_validation_accuracy": 0.8875755861239789
+        },
+        {
+            "scenario": "benign",
+            "round": 3,
+            "online_loss_suspicious_clients": [
+                5,
+                9
+            ],
+            "validation_loss_suspicious_clients": [
+                4,
+                5
+            ],
+            "online_cluster_centers": [
+                0.00017159351483099147,
+                0.0003592121130574482
+            ],
+            "validation_cluster_centers": [
+                7.491490470358433e-05,
+                0.00017564253724632745
+            ],
+            "global_clean_validation_loss": 0.2281372397837694,
+            "global_clean_validation_accuracy": 0.895549701191697
+        },
+        {
+            "scenario": "benign",
+            "round": 4,
+            "online_loss_suspicious_clients": [
+                1,
+                5,
+                9
+            ],
+            "validation_loss_suspicious_clients": [
+                1,
+                3,
+                5,
+                7
+            ],
+            "online_cluster_centers": [
+                0.0005349953523598721,
+                0.00032720501772660323
+            ],
+            "validation_cluster_centers": [
+                7.62096586707419e-05,
+                0.000132036006872914
+            ],
+            "global_clean_validation_loss": 0.18662563736618584,
+            "global_clean_validation_accuracy": 0.9477173874606598
+        },
+        {
+            "scenario": "benign",
+            "round": 5,
+            "online_loss_suspicious_clients": [
+                9
+            ],
+            "validation_loss_suspicious_clients": [
+                8
+            ],
+            "online_cluster_centers": [
+                0.0003075880226053769,
+                0.0009824086568322697
+            ],
+            "validation_cluster_centers": [
+                5.1783714776155394e-05,
+                0.0001221201093595456
+            ],
+            "global_clean_validation_loss": 0.16822332617391678,
+            "global_clean_validation_accuracy": 0.9505993847024293
+        },
+        {
+            "scenario": "benign",
+            "round": 6,
+            "online_loss_suspicious_clients": [
+                3,
+                9
+            ],
+            "validation_loss_suspicious_clients": [
+                1,
+                2,
+                6
+            ],
+            "online_cluster_centers": [
+                0.0003875020204754864,
+                0.0008457698431751058
+            ],
+            "validation_cluster_centers": [
+                0.0001279695391891312,
+                0.0001982683122330921
+            ],
+            "global_clean_validation_loss": 0.15793822739838315,
+            "global_clean_validation_accuracy": 0.952075745252661
+        },
+        {
+            "scenario": "benign",
+            "round": 7,
+            "online_loss_suspicious_clients": [
+                3,
+                9
+            ],
+            "validation_loss_suspicious_clients": [
+                1,
+                9
+            ],
+            "online_cluster_centers": [
+                0.0003735925122842023,
+                0.0006583186767568361
+            ],
+            "validation_cluster_centers": [
+                0.00021196415006506826,
+                0.0001019633544366615
+            ],
+            "global_clean_validation_loss": 0.15108707720970577,
+            "global_clean_validation_accuracy": 0.9531631245800771
+        },
+        {
+            "scenario": "benign",
+            "round": 8,
+            "online_loss_suspicious_clients": [
+                9
+            ],
+            "validation_loss_suspicious_clients": [
+                1,
+                4
+            ],
+            "online_cluster_centers": [
+                0.00048613859124506327,
+                0.0009190861320248021
+            ],
+            "validation_cluster_centers": [
+                8.112018812282901e-05,
+                0.00016532902937660063
+            ],
+            "global_clean_validation_loss": 0.14605753190522738,
+            "global_clean_validation_accuracy": 0.9538350012376675
+        },
+        {
+            "scenario": "benign",
+            "round": 9,
+            "online_loss_suspicious_clients": [
+                3,
+                9
+            ],
+            "validation_loss_suspicious_clients": [
+                1,
+                2,
+                8
+            ],
+            "online_cluster_centers": [
+                0.00027171997977984115,
+                0.0004162095207039043
+            ],
+            "validation_cluster_centers": [
+                0.00019314231462098236,
+                0.0001061038716677095
+            ],
+            "global_clean_validation_loss": 0.1420120325725543,
+            "global_clean_validation_accuracy": 0.9542151419781463
+        },
+        {
+            "scenario": "benign",
+            "round": 10,
+            "online_loss_suspicious_clients": [
+                9
+            ],
+            "validation_loss_suspicious_clients": [
+                6,
+                10
+            ],
+            "online_cluster_centers": [
+                0.00046198466573086835,
+                0.0008896938194691804
+            ],
+            "validation_cluster_centers": [
+                0.00015499089854344,
+                8.150841040627027e-05
+            ],
+            "global_clean_validation_loss": 0.1386337703843911,
+            "global_clean_validation_accuracy": 0.9546041232009619
+        }
+    ]
+}

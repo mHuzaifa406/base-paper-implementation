@@ -1,0 +1,55 @@
+{
+    "random_seed": 49,
+    "clients": 10,
+    "rounds": 20,
+    "warmup_rounds": 10,
+    "malicious_client_in_poisoned_scenarios": 5,
+    "poisoning_ratio_of_non_benign_records": 0.2,
+    "ratio_threshold": 3.5,
+    "local_training_objective": "weighted_cross_entropy",
+    "local_sampling": "capped_power_law_weighted_random_sampler_with_replacement",
+    "sampler_power": 0.25,
+    "sampler_weight_cap": 8.0,
+    "lsm_loss_measurement": "unweighted_cross_entropy_against_client_training_labels",
+    "class_weight_method": "capped_inverse_square_root_frequency",
+    "class_weight_cap": 10.0,
+    "training_class_counts": [
+        1726202,
+        1487,
+        288609,
+        27,
+        120692,
+        1657,
+        10513
+    ],
+    "class_weights": [
+        0.14821872721319956,
+        1.4821872721319955,
+        0.3624882656309119,
+        1.4821872721319955,
+        0.5605439186279059,
+        1.4821872721319955,
+        1.4821872721319955
+    ],
+    "validation_records": 113116,
+    "validation_file": "E:\\IoMT_FL_IDS\\data\\processed\\federated_v2\\server_validation\\validation.parquet",
+    "output_directory": "E:\\IoMT_FL_IDS\\results\\round11_defense_classweighted_sampler_v1",
+    "scenarios": [
+        {
+            "name": "benign_defense",
+            "poisoned": false,
+            "defense": true
+        },
+        {
+            "name": "poisoned_no_defense",
+            "poisoned": true,
+            "defense": false
+        },
+        {
+            "name": "poisoned_defense",
+            "poisoned": true,
+            "defense": true
+        }
+    ],
+    "code_note": "LSM/Manhattan/K-Means pipeline with an experimental cluster-centre-ratio abstention gate."
+}

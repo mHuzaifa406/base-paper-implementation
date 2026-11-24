@@ -1,0 +1,153 @@
+{
+    "scenario": "poisoned",
+    "method": "LSM and Manhattan similarity using common clean server validation loss",
+    "implementation_variant": true,
+    "number_of_clients": 10,
+    "malicious_client": 10,
+    "poisoning_ratio_of_non_benign_records": 0.2,
+    "local_epochs": 1,
+    "batch_size": 512,
+    "learning_rate": 0.01,
+    "validation_records": 113116,
+    "total_training_samples": 2149187,
+    "cluster_centers": [
+        0.0009310914795625536,
+        0.007843162505166928
+    ],
+    "suspicious_clients": [
+        10
+    ],
+    "malicious_client_detected": true,
+    "client_results": [
+        {
+            "client_id": 1,
+            "samples": 214780,
+            "eligible_non_benign_records": 42287,
+            "poisoned_records": 0,
+            "online_training_loss": 0.7985073718881238,
+            "clean_validation_loss": 0.4289668845449151,
+            "clean_validation_accuracy": 0.8851002510696984,
+            "lsm_score": 0.010087295031316133,
+            "manhattan_similarity": 0.0009147166281170977,
+            "cluster": 0,
+            "detection": "NORMAL"
+        },
+        {
+            "client_id": 2,
+            "samples": 214960,
+            "eligible_non_benign_records": 42264,
+            "poisoned_records": 0,
+            "online_training_loss": 0.7986694590083542,
+            "clean_validation_loss": 0.4291893324263004,
+            "clean_validation_accuracy": 0.8852151773400757,
+            "lsm_score": 0.0100905162546839,
+            "manhattan_similarity": 0.0009211590748526306,
+            "cluster": 0,
+            "detection": "NORMAL"
+        },
+        {
+            "client_id": 3,
+            "samples": 214864,
+            "eligible_non_benign_records": 42291,
+            "poisoned_records": 0,
+            "online_training_loss": 0.7988960017055613,
+            "clean_validation_loss": 0.42888143837479337,
+            "clean_validation_accuracy": 0.8851621344460554,
+            "lsm_score": 0.010093250631518514,
+            "manhattan_similarity": 0.0009362950867598998,
+            "cluster": 0,
+            "detection": "NORMAL"
+        },
+        {
+            "client_id": 4,
+            "samples": 214905,
+            "eligible_non_benign_records": 42313,
+            "poisoned_records": 0,
+            "online_training_loss": 0.7961701654099017,
+            "clean_validation_loss": 0.4292528031127718,
+            "clean_validation_accuracy": 0.8851974963754022,
+            "lsm_score": 0.010086442845379498,
+            "manhattan_similarity": 0.0009147166281170977,
+            "cluster": 0,
+            "detection": "NORMAL"
+        },
+        {
+            "client_id": 5,
+            "samples": 214900,
+            "eligible_non_benign_records": 42313,
+            "poisoned_records": 0,
+            "online_training_loss": 0.8001602397391052,
+            "clean_validation_loss": 0.4295224007279015,
+            "clean_validation_accuracy": 0.8851974963754022,
+            "lsm_score": 0.010079877379640455,
+            "manhattan_similarity": 0.0009377559813725286,
+            "cluster": 0,
+            "detection": "NORMAL"
+        },
+        {
+            "client_id": 6,
+            "samples": 215009,
+            "eligible_non_benign_records": 42283,
+            "poisoned_records": 0,
+            "online_training_loss": 0.798554616500583,
+            "clean_validation_loss": 0.42926014706936627,
+            "clean_validation_accuracy": 0.8851267725167085,
+            "lsm_score": 0.010091151379234109,
+            "manhattan_similarity": 0.0009236995730534676,
+            "cluster": 0,
+            "detection": "NORMAL"
+        },
+        {
+            "client_id": 7,
+            "samples": 214963,
+            "eligible_non_benign_records": 42303,
+            "poisoned_records": 0,
+            "online_training_loss": 0.7970651630746926,
+            "clean_validation_loss": 0.4298229107589827,
+            "clean_validation_accuracy": 0.8850118462463312,
+            "lsm_score": 0.010075782995697214,
+            "manhattan_similarity": 0.000962322285031977,
+            "cluster": 0,
+            "detection": "NORMAL"
+        },
+        {
+            "client_id": 8,
+            "samples": 214944,
+            "eligible_non_benign_records": 42281,
+            "poisoned_records": 0,
+            "online_training_loss": 0.7972751344325767,
+            "clean_validation_loss": 0.42896184054901154,
+            "clean_validation_accuracy": 0.8850737296226883,
+            "lsm_score": 0.010095116110791082,
+            "manhattan_similarity": 0.0009512189209404439,
+            "cluster": 0,
+            "detection": "NORMAL"
+        },
+        {
+            "client_id": 9,
+            "samples": 214931,
+            "eligible_non_benign_records": 42278,
+            "poisoned_records": 0,
+            "online_training_loss": 0.799396406297708,
+            "clean_validation_loss": 0.42937332577430365,
+            "clean_validation_accuracy": 0.8852151773400757,
+            "lsm_score": 0.010084831590529128,
+            "manhattan_similarity": 0.0009179391378178383,
+            "cluster": 0,
+            "detection": "NORMAL"
+        },
+        {
+            "client_id": 10,
+            "samples": 214931,
+            "eligible_non_benign_records": 42372,
+            "poisoned_records": 8474,
+            "online_training_loss": 0.7607575023234908,
+            "clean_validation_loss": 0.46986859728066765,
+            "clean_validation_accuracy": 0.8716096750238693,
+            "lsm_score": 0.009215677968180345,
+            "manhattan_similarity": 0.007843162505166928,
+            "cluster": 1,
+            "detection": "SUSPICIOUS"
+        }
+    ]
+}

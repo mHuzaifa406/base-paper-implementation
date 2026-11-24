@@ -1,0 +1,132 @@
+{
+    "method": "Paper Equations 4 and 5 with K-Means",
+    "number_of_clients": 10,
+    "malicious_client": null,
+    "poisoning_ratio_of_non_benign_records": 0.0,
+    "local_epochs": 1,
+    "batch_size": 512,
+    "learning_rate": 0.01,
+    "total_samples": 2262303,
+    "cluster_centers": [
+        0.0002585835882143242,
+        0.000419593888055618
+    ],
+    "anomalous_cluster": 1,
+    "suspected_clients": [
+        4,
+        7
+    ],
+    "malicious_client_detected": false,
+    "client_results": [
+        {
+            "client_id": 1,
+            "samples": 226233,
+            "loss": 0.42130671526160457,
+            "online_training_loss": 0.7803687186422635,
+            "eligible_malicious_records": 0,
+            "poisoned_records": 0,
+            "score": 0.010019004646446132,
+            "manhattan_similarity": 0.0002778809752562589,
+            "cluster": 0
+        },
+        {
+            "client_id": 2,
+            "samples": 226233,
+            "loss": 0.4229199313467146,
+            "online_training_loss": 0.7810241691633308,
+            "eligible_malicious_records": 0,
+            "poisoned_records": 0,
+            "score": 0.009980787437337612,
+            "manhattan_similarity": 0.00023873117309324704,
+            "cluster": 0
+        },
+        {
+            "client_id": 3,
+            "samples": 226233,
+            "loss": 0.4231019721023264,
+            "online_training_loss": 0.7811830703611055,
+            "eligible_malicious_records": 0,
+            "poisoned_records": 0,
+            "score": 0.009976493176836613,
+            "manhattan_similarity": 0.0002559082150972447,
+            "cluster": 0
+        },
+        {
+            "client_id": 4,
+            "samples": 226233,
+            "loss": 0.4201358967004431,
+            "online_training_loss": 0.7775912209514363,
+            "eligible_malicious_records": 0,
+            "poisoned_records": 0,
+            "score": 0.010046925223327442,
+            "manhattan_similarity": 0.00046925212031136837,
+            "cluster": 1
+        },
+        {
+            "client_id": 5,
+            "samples": 226231,
+            "loss": 0.4233176102399005,
+            "online_training_loss": 0.7810262595765269,
+            "eligible_malicious_records": 0,
+            "poisoned_records": 0,
+            "score": 0.009971322996055387,
+            "manhattan_similarity": 0.0002869292997845982,
+            "cluster": 0
+        },
+        {
+            "client_id": 6,
+            "samples": 226230,
+            "loss": 0.42253698005245444,
+            "online_training_loss": 0.7809688870585819,
+            "eligible_malicious_records": 0,
+            "poisoned_records": 0,
+            "score": 0.009989700695579369,
+            "manhattan_similarity": 0.0002209046566097328,
+            "cluster": 0
+        },
+        {
+            "client_id": 7,
+            "samples": 226228,
+            "loss": 0.4206463860749233,
+            "online_training_loss": 0.7790825413481878,
+            "eligible_malicious_records": 0,
+            "poisoned_records": 0,
+            "score": 0.010034510665263504,
+            "manhattan_similarity": 0.0003699356557998676,
+            "cluster": 1
+        },
+        {
+            "client_id": 8,
+            "samples": 226228,
+            "loss": 0.42127677039683853,
+            "online_training_loss": 0.7789037599315218,
+            "eligible_malicious_records": 0,
+            "poisoned_records": 0,
+            "score": 0.010019495362626443,
+            "manhattan_similarity": 0.0002798438399774991,
+            "cluster": 0
+        },
+        {
+            "client_id": 9,
+            "samples": 226228,
+            "loss": 0.42331537488141013,
+            "online_training_loss": 0.7817470550559241,
+            "eligible_malicious_records": 0,
+            "poisoned_records": 0,
+            "score": 0.009971243422367677,
+            "manhattan_similarity": 0.0002875658892862801,
+            "cluster": 0
+        },
+        {
+            "client_id": 10,
+            "samples": 226226,
+            "loss": 0.422495006804628,
+            "online_training_loss": 0.7801636689316072,
+            "eligible_malicious_records": 0,
+            "poisoned_records": 0,
+            "score": 0.00999051648712287,
+            "manhattan_similarity": 0.0002209046566097328,
+            "cluster": 0
+        }
+    ]
+}

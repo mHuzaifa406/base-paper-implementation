@@ -1,0 +1,14 @@
+{
+    "scenario": "benign_defense",
+    "test_records": 565573,
+    "test_accuracy": 0.9203250508776055,
+    "macro_precision": 0.4539246741360018,
+    "macro_recall": 0.6721479918769617,
+    "macro_f1": 0.46223600812648075,
+    "weighted_precision": 0.9513245798952795,
+    "weighted_recall": 0.9203250508776055,
+    "weighted_f1": 0.9302555440519149,
+    "attack_success_rate": 0.013350223252387498,
+    "malicious_test_records": 111309,
+    "malicious_records_predicted_benign": 1486
+}
